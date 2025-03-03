@@ -7,7 +7,7 @@ const Home = () => {
     <>
     <div className={styles.homePage}>
       <div>
-        <img src="./src/assets/4.png" alt="no-img" className={styles.Bannerimg}  />
+        <img src="/4.png" alt="no-img" className={styles.Bannerimg}  />
       </div>
       <header className={styles.banner}>
         <h1 className={styles.bannerTitle}>Welcome to the QuizWiz</h1>
@@ -19,28 +19,28 @@ const Home = () => {
         <h2 className={styles.coursesHeader}>Our Courses</h2>
         <div className={styles.coursesGrid}>
           <div className={styles.courseCard}>
-            <img src="./src/assets/bootstrap.png" alt=" no-img" className={styles.courseimg} />
+            <img src="/bootstrap.png" alt=" no-img" className={styles.courseimg} />
             <h3 className={styles.courseTitle}>BootStrap</h3>
             <p className={styles.courseDescription}>Learn the stylings of web pages with Bootstrap.</p>
             <button className={styles.startButton} to="/quiz" >Start Course</button>
           </div>
 
           <div className={styles.courseCard}>
-          <img src="./src/assets/css3.png" alt=" no-img" className={styles.courseimg} />
+          <img src="/css3.png" alt=" no-img" className={styles.courseimg} />
             <h3 className={styles.courseTitle}>CSS</h3>
             <p className={styles.courseDescription}>Style your web pages using CSS.</p>
             <button className={styles.startButton} to="/quiz" >Start Course</button>
           </div>
 
           <div className={styles.courseCard}>
-          <img src="./src/assets/javaScript-logo.png" alt=" no-img" className={styles.courseimg} />
+          <img src="/javaScript-logo.png" alt=" no-img" className={styles.courseimg} />
             <h3 className={styles.courseTitle}>JavaScript</h3>
             <p className={styles.courseDescription}>Add interactivity to your web pages with JavaScript.</p>
             <button className={styles.startButton} to="/quiz" >Start Course</button>
           </div>
 
           <div className={styles.courseCard}>
-          <img src="./src/assets/ree.png" alt=" no-img" className={styles.courseimg} />
+          <img src="/ree.png" alt=" no-img" className={styles.courseimg} />
             <h3 className={styles.courseTitle}>React</h3>
             <p className={styles.courseDescription}>Build dynamic web applications using React.</p>
             <button className={styles.startButton} o="/quiz">Start Course</button>

@@ -33,7 +33,7 @@ const Home = () => {
           </div>
 
           <div className={styles.courseCard}>
-          <img src="/javaScript-logo.png" alt=" no-img" className={styles.courseimg} />
+          <img src="/JavaScript-logo.png" alt=" no-img" className={styles.courseimg} />
             <h3 className={styles.courseTitle}>JavaScript</h3>
             <p className={styles.courseDescription}>Add interactivity to your web pages with JavaScript.</p>
             <button className={styles.startButton} to="/quiz" >Start Course</button>
